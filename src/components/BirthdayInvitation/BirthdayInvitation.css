@@ -1,0 +1,65 @@
+
+.invitation-content {
+  margin-bottom: 30px;
+}
+
+.response-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.response-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.response-buttons button:focus {
+  outline: none;
+}
+
+.response-buttons button:hover {
+  background-color: #4caf50; /* Цвет при наведении */
+  color: white;
+}
+
+/* Дополнительные зимние стили */
+.invitation-container {
+  width: 100%;
+  height: 100vh; /* Высота на весь экран */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(69, 156, 168); */
+  background-image: url('../../images/winter_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 768px) {
+  .invitation-container {
+    padding: 20px;
+  }
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
