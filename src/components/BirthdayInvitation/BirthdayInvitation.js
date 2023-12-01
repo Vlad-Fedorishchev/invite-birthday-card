@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../components/BirthdayInvitation/BirthdayInvitation';
 import ResponseButtons from '../../components/ResponseButtons/ResponseButtons';
-import './BirthdayInvitation.css'
+import './BirthdayInvitation.css';
 import Snowflakes from '../Snowflakes/Snowflakes';
 
 const BirthdayInvitation = () => {
   return (
     <div className="invitation-container">
-      <Snowflakes />
+      <Snowflakes />  
       <div className='content-container'>
         <h1 className='text'>Привет, друзья!</h1>
         <p className='text'>
